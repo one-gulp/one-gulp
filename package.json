@@ -1,0 +1,13 @@
+{
+  "name": "one-gulp",
+  "version": "1.0.0",
+  "description": "a ready to use set of gulp tasks",
+  "main": "lib/one-gulp.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabhub/one-gulp.git"
+  },
+  "author": "Fabrice CLAEYS & Hubert SABLONNIÈRE",
+  "license": "MIT",
+  "homepage": "https://github.com/fabhub/one-gulp"
+}
