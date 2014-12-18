@@ -1,0 +1,43 @@
+/* main */
+
+html {
+  padding: 0 20px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 960px;
+  width: 100%;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.logos {
+  margin: 50px 0;
+}
+
+.logos img {
+  display: inline-block;
+  height: 150px;
+  margin-right: 20px;
+  opacity: .5;
+  transition: 200ms opacity;
+
+  &.selected {
+    opacity: 1;
+  }
+}
+
+.actions button {
+  cursor: pointer;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}

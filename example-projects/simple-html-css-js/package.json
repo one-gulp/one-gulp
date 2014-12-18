@@ -1,0 +1,6 @@
+{
+  "name": "one-gulp-simple-html-css-js",
+  "devDependencies": {
+    "gulp": "3.8.11"
+  }
+}

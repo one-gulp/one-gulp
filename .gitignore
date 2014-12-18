@@ -1,3 +1,5 @@
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 *.iml
 .idea/
+node_modules/gulp-sass
+example-projects/*/.one-gulp
