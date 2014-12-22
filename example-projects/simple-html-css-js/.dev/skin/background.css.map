@@ -1,0 +1,1 @@
+{"version":3,"sources":["background.css"],"names":[],"mappings":"AAAA,cAAa;;AAEb;IACI,wCAAuC;EAC1C","file":"skin/background.css","sourcesContent":["/* skin/bg */\n\nhtml {\n    background: url(../img/linedpaper.png);\n}"],"sourceRoot":"/source/"}
