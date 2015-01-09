@@ -1,0 +1,12 @@
+/* layout/colors */
+.foobar {
+  font: 12px Helvetica, Arial, sans-serif;
+}
+.test {
+  color: #f00;
+  border-radius: 5px;
+  -webkit-transition: opacity 200ms;
+          transition: opacity 200ms;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxheW91dC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsb0JBQW1CO0FBQ25CO0VBQ0UseUNBQXdDO0VBQ3pDO0FBQ0Q7RUFDRSxhQUFZO0VBQ1osb0JBQW1CO0VBQ25CLG1DQUEwQjtVQUExQiwyQkFBMEI7RUFDM0IiLCJmaWxlIjoic2tpbi9sYXlvdXQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogbGF5b3V0L2NvbG9ycyAqL1xuLmZvb2JhciB7XG4gIGZvbnQ6IDEycHggSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjtcbn1cbi50ZXN0IHtcbiAgY29sb3I6ICNmMDA7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgdHJhbnNpdGlvbjogb3BhY2l0eSAyMDBtcztcbn1cbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
