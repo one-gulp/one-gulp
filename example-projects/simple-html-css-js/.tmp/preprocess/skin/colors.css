@@ -1,0 +1,15 @@
+/* skin/colors */
+body {
+  background: #FFF;
+  box-shadow: 0 0 10px #AAA;
+  border-radius: 5px;
+}
+.title {
+  color: #bada55;
+}
+.actions button {
+  background: #F7F7F7;
+  border: 1px solid #AAA;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNraW4vY29sb3JzLmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUVBO0VBQ0ksZ0JBQUE7RUFDQSx5QkFBQTtFQUNBLGtCQUFBOztBQUdKO0VBQ0ksY0FBQTs7QUFHSixRQUFTO0VBQ0wsbUJBQUE7RUFDQSxzQkFBQSIsImZpbGUiOiJza2luL2NvbG9ycy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBza2luL2NvbG9ycyAqL1xuXG5ib2R5IHtcbiAgICBiYWNrZ3JvdW5kOiAjRkZGO1xuICAgIGJveC1zaGFkb3c6IDAgMCAxMHB4ICNBQUE7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xufVxuXG4udGl0bGUge1xuICAgIGNvbG9yOiAjYmFkYTU1O1xufVxuXG4uYWN0aW9ucyBidXR0b24ge1xuICAgIGJhY2tncm91bmQ6ICNGN0Y3Rjc7XG4gICAgYm9yZGVyOiAxcHggc29saWQgI0FBQTtcbn0iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0= */

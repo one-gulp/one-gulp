@@ -8,4 +8,17 @@ one.init(gulp, {
     //connectPort: 4001,
     //browserSyncPort: 4000,
     //bindHost: '0.0.0.0'
+
+    //cssDeps: [
+    //    {
+    //        bowerInclude: '**/*.css',
+    //        output: 'bower-styles.css'
+    //    },
+    //    {
+    //        srcInclude: ['**/*.css'],
+    //        exclude: ['skin/**/*.css'],
+    //        output: 'all-styles.css'
+    //    }
+    //]
+
 });

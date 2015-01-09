@@ -6,28 +6,40 @@
 * [DONE] concatenation
 * [DONE] concatenation avec pattern vers fichiers multiples
 * [DONE] concatenation avec URL css qui marche
+* [DONE] output optionnel pour ne pas concaténer et garder les différents fichiers
+* [DONE] preprocessing autprefixer
 
-* [TO BE IMPROVED] preprocessing autprefixer
+* ajouter le cache sur le preprocessing
 
 * créer le projet gulp reject (et enlever le patch sur gulp filter)
 
-* bower inject
+* investiguer les base dans le src avec le concatCSS (img/font relative)
+
+* reload sourcemaps
+
+* reload server on deps reorder change
+* reload server on new bower
+
+
+* documenter le comportement complexe des outputs multiples (order et fusion)
 
 * local/outside [ALMOST DONE]
 * mode local correct via browserSync
 
-* favicon and icones ;-)
-
 * Sourcemap pour uglify
 * Sourcemap pour minifyCss
+* Sourcemap pour concat
+* Sourcemap pour concatCss
 
 * preprocessing jade
+* preprocessing markdown
 * preprocessing scss
 * preprocessing less
 * preprocessing stylus
 * preprocessing coffee
 * preprocessing typescript
-* bower inject
+
+* favicon and icones ;-)
 * sprites
 * revision
 * lint

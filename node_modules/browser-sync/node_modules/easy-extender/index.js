@@ -7,6 +7,7 @@ var EasyExtender = function (plugins, hooks) {
 
     this.plugins        = {};
     this.pluginOptions  = {};
+    this.returnValues   = {};
 
     this.hooks          = hooks;
     this.defaultPlugins = plugins;
@@ -36,7 +37,7 @@ EasyExtender.prototype.init = function () {
  */
 EasyExtender.prototype.initUserPlugins = function () {
 
-    var args = Array.prototype.slice.call(arguments);
+    var args = _.toArray(arguments);
 
     var userPlugins = _.difference(Object.keys(this.plugins), Object.keys(this.defaultPlugins));
 
@@ -50,7 +51,10 @@ EasyExtender.prototype.initUserPlugins = function () {
                 pluginOptions = this.pluginOptions[plugin];
             }
 
-            this.get(plugin).apply(null, [pluginOptions].concat(args));
+            this.returnValues[plugin].push({
+                value: this.get(plugin).apply(null, [pluginOptions].concat(args))
+            });
+
             this.enablePlugin(plugin);
 
         }, this);
@@ -104,36 +108,37 @@ EasyExtender.prototype.registerPlugin = function (module, opts, cb) {
             pluginOptions = opts;
         }
     }
-    
+
     var name = _.isUndefined(module["plugin:name"]) ? _.uniqueId() : module["plugin:name"];
 
     this.pluginOptions[name] = pluginOptions;
+    this.returnValues[name]  = [];
 
     this.plugins[name] = module;
 
     if (_.isFunction(cb)) {
         cb(null);
     }
-    
+
     this.disablePlugin(name);
 
     return this;
 };
 
 /**
- * 
+ *
  * @param name
  */
 EasyExtender.prototype.getPlugin = function (module) {
-    
+
     if (_.isString(module)) {
         module = this.plugins[module];
     }
-    
+
     if (!module) {
         return false;
     }
-    
+
     return module;
 };
 
@@ -153,10 +158,10 @@ EasyExtender.prototype.disablePlugin = function (module) {
  * @param name
  */
 EasyExtender.prototype.enablePlugin = function (module) {
-    
+
     module = this.getPlugin(module);
     module._enabled = true;
-    
+
     return module;
 };
 
@@ -181,6 +186,14 @@ EasyExtender.prototype.hook = function (name) {
     });
 
     return this.hooks[name].apply(this, [funcs].concat(args));
+};
+
+/**
+ * @param name
+ * @returns {*}
+ */
+EasyExtender.prototype.getReturnValues = function (name) {
+    return this.returnValues[name] || [];
 };
 
 module.exports = EasyExtender;
