@@ -1,0 +1,41 @@
+{
+  "html": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/index.html": "b12d30b5280435706c709710c595921f",
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/test2.html": "b12d30b5280435706c709710c595921f"
+  },
+  "jade": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/foo.jade": "56b54d628b98e92bd3a629524a7c7d8b"
+  },
+  "md": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/test.md": "278ea47d91dd3e5c749e1e4bdb5b10fb"
+  },
+  "css": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/zzz.css": "951a3948faf297a91828dca62c1728d3",
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/skin/background.css": "3d1dd16d98844b928f38f6b3ce31133c"
+  },
+  "scss": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/main.scss": "defadc63e1659dfb5f9843e0a1c67a19"
+  },
+  "less": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/skin/colors.less": "49ca198ca289e1429adf4dfd9f61285d"
+  },
+  "styl": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/skin/layout.styl": "7057e2f7f4037bf63888aeb8f564608e"
+  },
+  "js": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/gallery.js": "e8cc21c20423cc4f7176aaf2d5cfd9e4",
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/index.js": "3eda86e74a529d5a11692b337a316467"
+  },
+  "ts": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/test.ts": "e058c22da2dd08e31ab94a523ce23670"
+  },
+  "coffee": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/foobar.coffee": "66b37e3f163b0eb0425c5a9083323ad4"
+  },
+  "injects": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/foo.html": "35edeca1b8d610704778de9e04129e39",
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/index.html": "b858d169990fce27ed6ba044a5943701",
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/test.html": "e35bac648ea9792af157ceb4a559ef51",
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/test2.html": "b858d169990fce27ed6ba044a5943701"
+  }
+}
