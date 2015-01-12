@@ -8,8 +8,24 @@
 * [DONE] concatenation avec URL css qui marche
 * [DONE] output optionnel pour ne pas concaténer et garder les différents fichiers
 * [DONE] preprocessing autprefixer
+* [DONE] preprocessing jade
+* [DONE] preprocessing markdown
+* [DONE] preprocessing scss
+* [DONE] preprocessing less
+* [DONE] preprocessing stylus
+* [DONE] preprocessing coffee
+* [DONE] preprocessing typescript
+* [DONE] ajouter le cache sur le preprocessing
+* [DONE] sourcemaps pour le JS
 
-* ajouter le cache sur le preprocessing
+
+
+
+
+
+
+
+* sourcemaps pour le CSS
 
 * créer le projet gulp reject (et enlever le patch sur gulp filter)
 
@@ -20,7 +36,6 @@
 * reload server on deps reorder change
 * reload server on new bower
 
-
 * documenter le comportement complexe des outputs multiples (order et fusion)
 
 * local/outside [ALMOST DONE]
@@ -30,14 +45,6 @@
 * Sourcemap pour minifyCss
 * Sourcemap pour concat
 * Sourcemap pour concatCss
-
-* preprocessing jade
-* preprocessing markdown
-* preprocessing scss
-* preprocessing less
-* preprocessing stylus
-* preprocessing coffee
-* preprocessing typescript
 
 * favicon and icones ;-)
 * sprites

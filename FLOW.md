@@ -1,25 +1,35 @@
 
-build-dev/all
-    build-dev/html
-        build-dev/jade
-        build-dev/css
-            build-dev/scss
-            build-dev/less
-            build-dev/stylus
-        build-dev/js
-            build-dev/typescript
-            build-dev/coffee
-            build-dev/es6
+buid-dev/injects
+    preprocess/to-html
+        preprocess/html
+        preprocess/jade
+        preprocess/markdown
+    preprocess/to-css
+        preprocess/css
+        preprocess/scss
+        preprocess/less
+        preprocess/stylus
+    preprocess/to-js
+        preprocess/js
+        preprocess/typescript
+        preprocess/coffee
 
-build/all
-    build/html
-        build/jade
-        build/markdown
-        build/css
-            build/scss
-            build/less
-            build/stylus
-        build/js
-            build/typescript
-            build/coffee
-    build/img
+build-prod
+    build-prod/injects
+        preprocess/to-html
+            preprocess/html
+            preprocess/jade
+            preprocess/markdown
+        build-prod/css
+            preprocess/to-css
+                preprocess/css
+                preprocess/scss
+                preprocess/less
+                preprocess/stylus
+        build-prod/js
+            preprocess/to-js
+                preprocess/js
+                preprocess/typescript
+                preprocess/coffee
+    build-prod/img
+    build-prod/others

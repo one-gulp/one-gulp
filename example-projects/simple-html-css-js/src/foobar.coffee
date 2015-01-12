@@ -8,6 +8,8 @@ number = -42 if opposite
 # Functions:
 square = (x) -> x * x
 
+console.log(42)
+
 # Arrays:
 list = [1, 2, 3, 4, 5]
 
