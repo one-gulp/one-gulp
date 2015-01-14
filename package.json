@@ -10,7 +10,7 @@
   "author": "Fabrice CLAEYS & Hubert SABLONNIÈRE",
   "license": "MIT",
   "homepage": "https://github.com/fabhub/one-gulp",
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "1.9.0",
     "chokidar": "0.12.6",
     "connect": "3.3.4",
