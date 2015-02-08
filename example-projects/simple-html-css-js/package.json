@@ -2,5 +2,8 @@
   "name": "one-gulp-simple-html-css-js",
   "devDependencies": {
     "gulp": "^3.8.10"
+  },
+  "dependencies": {
+    "6to5": "^2.11.1"
   }
 }

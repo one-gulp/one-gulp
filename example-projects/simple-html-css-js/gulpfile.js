@@ -21,4 +21,21 @@ one.init(gulp, {
     //    }
     //]
 
+    cssDeps: [
+        {
+            bowerInclude: '**/*.css',
+            output: 'bower-styles.css'
+        },
+        {
+            srcInclude: ['skin/*.css'],
+            sort: ['skin/layout.css'],
+            output: 'skin-styles.css'
+        },
+        {
+            srcInclude: ['**/*.css'],
+            exclude: ['skin/*.css', 'zzz.css'],
+            output: 'all-styles.css'
+        }
+    ]
+
 });

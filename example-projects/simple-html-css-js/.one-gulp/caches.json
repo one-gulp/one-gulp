@@ -23,8 +23,8 @@
     "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/skin/layout.styl": "7057e2f7f4037bf63888aeb8f564608e"
   },
   "js": {
-    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/gallery.js": "e8cc21c20423cc4f7176aaf2d5cfd9e4",
-    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/index.js": "3eda86e74a529d5a11692b337a316467"
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/index.js": "762d9829609b00990e49d8383c9d3774",
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/gallery/gallery.js": "e8cc21c20423cc4f7176aaf2d5cfd9e4"
   },
   "ts": {
     "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/test.ts": "e058c22da2dd08e31ab94a523ce23670"
@@ -33,9 +33,9 @@
     "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/foobar.coffee": "66b37e3f163b0eb0425c5a9083323ad4"
   },
   "injects": {
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/index.html": "670e73f9f2e9b2153f773cf7a1ce39a5",
     "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/foo.html": "35edeca1b8d610704778de9e04129e39",
-    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/index.html": "b858d169990fce27ed6ba044a5943701",
     "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/test.html": "e35bac648ea9792af157ceb4a559ef51",
-    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/test2.html": "b858d169990fce27ed6ba044a5943701"
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/test2.html": "670e73f9f2e9b2153f773cf7a1ce39a5"
   }
 }

@@ -15,17 +15,23 @@
 * [DONE] preprocessing stylus
 * [DONE] preprocessing coffee
 * [DONE] preprocessing typescript
+* [DONE] preprocessing 6to5
 * [DONE] ajouter le cache sur le preprocessing
 * [DONE] sourcemaps pour le JS
 
+* include from NPM
+* study package managers
 
 
 
-
-
+* ajouter le double mode de SASS avec le cache quand il faut etc...
 
 
 * sourcemaps pour le CSS
+* Sourcemap pour uglify
+* Sourcemap pour minifyCss
+* Sourcemap pour concat
+* Sourcemap pour concatCss
 
 * créer le projet gulp reject (et enlever le patch sur gulp filter)
 
@@ -41,10 +47,6 @@
 * local/outside [ALMOST DONE]
 * mode local correct via browserSync
 
-* Sourcemap pour uglify
-* Sourcemap pour minifyCss
-* Sourcemap pour concat
-* Sourcemap pour concatCss
 
 * favicon and icones ;-)
 * sprites
