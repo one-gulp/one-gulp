@@ -33,8 +33,8 @@
     "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/src/foobar.coffee": "66b37e3f163b0eb0425c5a9083323ad4"
   },
   "injects": {
-    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/index.html": "670e73f9f2e9b2153f773cf7a1ce39a5",
     "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/foo.html": "35edeca1b8d610704778de9e04129e39",
+    "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/index.html": "670e73f9f2e9b2153f773cf7a1ce39a5",
     "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/test.html": "e35bac648ea9792af157ceb4a559ef51",
     "/home/hsablonniere/dev/one-gulp/example-projects/simple-html-css-js/.one-gulp/preprocess/test2.html": "670e73f9f2e9b2153f773cf7a1ce39a5"
   }

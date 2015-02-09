@@ -15,7 +15,7 @@
     "chokidar": "0.12.6",
     "connect": "3.3.4",
     "expect.js": "0.3.1",
-    "gulp": "3.8.10",
+    "gulp": "gulpjs/gulp#4.0",
     "gulp-6to5": "^2.0.0",
     "gulp-autoprefixer": "2.0.0",
     "gulp-cached": "1.0.1",
