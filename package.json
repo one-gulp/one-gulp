@@ -46,5 +46,10 @@
     "rimraf": "2.2.8",
     "serve-static": "1.8.0",
     "underscore": "1.7.0"
+  },
+  "dependencies": {
+    "es6-promise-polyfill": "^1.0.0",
+    "stream-array": "^1.0.1",
+    "through2": "^0.6.3"
   }
 }
