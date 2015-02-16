@@ -120,16 +120,16 @@ var customFns = {
 
 // TEST
 
-one.link(one.sources.html).to(one.transforms.injectDev);
-one.link(one.sources.css).to(one.transforms.injectDev, { secondary: true });
-one.link(one.sources.js).to(one.transforms.injectDev, { secondary: true });
-
-one.link(one.transforms.injectDev).to(one.outputs.writeToDev);
-
-one.link(one.outputs.writeToDev).to(one.outputs.browserSync);
-one.link(one.sources.js).to(one.outputs.browserSync);
-one.link(one.sources.css).to(one.outputs.browserSync);
-one.link(one.sources.images).to(one.outputs.browserSync);
+//one.link(one.sources.html).to(one.transforms.injectDev);
+//one.link(one.sources.css).to(one.transforms.injectDev, { secondary: true });
+//one.link(one.sources.js).to(one.transforms.injectDev, { secondary: true });
+//
+//one.link(one.transforms.injectDev).to(one.outputs.writeToDev);
+//
+//one.link(one.outputs.writeToDev).to(one.outputs.browserSync);
+//one.link(one.sources.js).to(one.outputs.browserSync);
+//one.link(one.sources.css).to(one.outputs.browserSync);
+//one.link(one.sources.images).to(one.outputs.browserSync);
 
 
 //
