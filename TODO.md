@@ -59,3 +59,13 @@
 config fichier non voulus => ne pas les inclure
 config l'ordre d'inclusion/import => ordre avec les patterns et le tableau
 config la répartition une fois concaténé
+
+
+
+
+
+
+
+UTILISE UNE LIB DE DAG DIGRAPH
+
+https://github.com/cpettitt/graphlib/wiki

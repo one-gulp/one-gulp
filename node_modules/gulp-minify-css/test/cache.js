@@ -29,6 +29,11 @@
       keepBreaks: false,
       processImport: true
     };
+    var p = function(cb) {
+      gulp.src(filename)
+        .pipe(minifyCSS(options))
+        .pipe(es.map(cb));
+    };
 
     beforeEach(function() {
       cacheStub.clear();
@@ -53,7 +58,6 @@
         src
         .pipe(minifyCSS(options))
         .pipe(es.map(function(file){
-          setTimeout(function() {
             expect(cacheStub.size()).to.be.equal(1);
             expect(cacheStub.get(filename)).to.deep.equal({
               raw: rawContents,
@@ -61,8 +65,19 @@
               options: options
             });
             done();
-          }, 100);
         }));
+      });
+
+      it('should return the cached content if the cache is used', function(done) {
+        p(function(file) {
+          expect(file.contents.toString()).to.be.equal(compiled.styles);
+          cacheStub.get(filename).minified.styles = 'cached data';
+
+          p(function(cachedFile) {
+            expect(cachedFile.contents.toString()).to.be.equal('cached data');
+            done();
+          });
+        });
       });
     });
 
@@ -95,6 +110,18 @@
             done();
           }, 100);
         }));
+      });
+
+      it('should return the cached content if the cache is used', function(done) {
+        p(function(file) {
+          expect(file.contents.toString()).to.be.equal(compiled.styles);
+          cacheStub.get(filename).minified.styles = 'cached data';
+
+          p(function(cachedFile) {
+            expect(cachedFile.contents.toString()).to.be.equal('cached data');
+            done();
+          });
+        });
       });
     });
 

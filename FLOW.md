@@ -38,10 +38,10 @@ build-prod
 
 
 
-watch(.css)  =>         autoprefixer => write(dev) => browserSync(file.css)
-watch(.scss) => sass => autoprefixer => write(dev) => browserSync(file.css)
-watch(.less) => less => autoprefixer => write(dev) => browserSync(file.css)
-watch(.styl) => styl => autoprefixer => write(dev) => browserSync(file.css)
+watch(.css)  =>         autoprefix => write(dev) => browserSync(file.css)
+watch(.scss) => sass => autoprefix => write(dev) => browserSync(file.css)
+watch(.less) => less => autoprefix => write(dev) => browserSync(file.css)
+watch(.styl) => styl => autoprefix => write(dev) => browserSync(file.css)
 
 watch(.js)     =>               write(dev) => browserSync(file.js)
 watch(.js)     => 6to5 =>       write(dev) => browserSync(file.js)
