@@ -28,12 +28,12 @@ one.init(gulp, {
         },
         {
             srcInclude: ['skin/*.css'],
-            sort: ['skin/layout.css'],
+            sort: ['skin/colors.css'],
             output: 'skin-styles.css'
         },
         {
             srcInclude: ['**/*.css'],
-            exclude: ['skin/*.css', 'zzz.css'],
+            exclude: ['skin/*.css', 'zzza.css'],
             output: 'all-styles.css'
         }
     ]
@@ -100,37 +100,45 @@ one.init(gulp, {
 //
 // -- redefine html (exemple)
 
-var customFns = {
-
-    rootHtml: function () {
-        return gulp.src('*.html', { cwd: one.options.dev, nodir: true });
-    },
-
-    views: function () {
-        return gulp.src('views/*.html', { cwd: one.options.dev, nodir: true });
-    },
-
-    html2js: function (html) {
-        return one.sources.js();
-        //return html.pipe($.html2js());
-    }
-};
+//var customFns = {
+//
+//    rootHtml: function () {
+//        return gulp.src('*.html', { cwd: one.options.dev, nodir: true });
+//    },
+//
+//    views: function () {
+//        return gulp.src('views/*.html', { cwd: one.options.dev, nodir: true });
+//    },
+//
+//    html2js: function (html) {
+//        return one.sources.js();
+//        //return html.pipe($.html2js());
+//    }
+//};
 
 //one.load(customFns);
 
 // TEST
 
-//one.link(one.sources.html).to(one.transforms.injectDev);
-//one.link(one.sources.css).to(one.transforms.injectDev, { secondary: true });
-//one.link(one.sources.js).to(one.transforms.injectDev, { secondary: true });
-//
-//one.link(one.transforms.injectDev).to(one.outputs.writeToDev);
-//
-//one.link(one.outputs.writeToDev).to(one.outputs.browserSync);
-//one.link(one.sources.js).to(one.outputs.browserSync);
-//one.link(one.sources.css).to(one.outputs.browserSync);
-//one.link(one.sources.images).to(one.outputs.browserSync);
 
+one.link(one.sources.html).to(one.transforms.injectDev);
+one.link(one.sources.css).to(one.transforms.groupAndReorderCss);
+one.link(one.sources.bowerCss).to(one.transforms.groupAndReorderCss);
+one.link(one.sources.less).to(one.transforms.less);
+one.link(one.transforms.less).to(one.transforms.groupAndReorderCss);
+one.link(one.sources.js).to(one.transforms.injectDev, { primary: false });
+
+
+one.link(one.transforms.groupAndReorderCss).to(one.transforms.injectDev, { primary: false });
+one.link(one.transforms.groupAndReorderCss).to(one.transforms.injectDev, { primary: false });
+
+one.link(one.transforms.less).to(one.outputs.writeToDev);
+one.link(one.transforms.injectDev).to(one.outputs.writeToDev);
+
+one.link(one.outputs.writeToDev).to(one.outputs.browserSync);
+one.link(one.sources.js).to(one.outputs.browserSync);
+one.link(one.sources.css).to(one.outputs.browserSync);
+one.link(one.sources.images).to(one.outputs.browserSync);
 
 //
 //

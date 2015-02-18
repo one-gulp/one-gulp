@@ -85,3 +85,11 @@ complete : add, unlink, unlinkdir, change (works ok on linux)
 ## inclusion/exclusion/concat/order
 
 WTF???
+
+
+## gulp cache
+
+https://github.com/wearefractal/gulp-cached
+https://github.com/stolksdorf/gulp-delta
+https://github.com/mogstad/gulp-content-cache
+https://github.com/ahaurw01/gulp-remember
