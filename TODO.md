@@ -1,4 +1,16 @@
-# TODO
+# NEW TODO
+
+## DEV
+
+* vrais build incrémentaux avec un super cache
+* DRY sur les fonction de sort etc...
+
+## PROD
+
+* réparer la concaténation configurable en prod
+* réparer les liens des CSS
+
+# OLD TODO
 
 * [DONE] classic inject
 * [DONE] classic inject with reorder
@@ -59,11 +71,6 @@
 config fichier non voulus => ne pas les inclure
 config l'ordre d'inclusion/import => ordre avec les patterns et le tableau
 config la répartition une fois concaténé
-
-
-
-
-
 
 
 UTILISE UNE LIB DE DAG DIGRAPH
