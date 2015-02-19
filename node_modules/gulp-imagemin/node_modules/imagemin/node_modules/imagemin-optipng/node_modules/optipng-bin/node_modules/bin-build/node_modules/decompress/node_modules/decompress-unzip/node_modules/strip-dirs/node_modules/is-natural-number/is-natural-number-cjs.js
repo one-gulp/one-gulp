@@ -13,8 +13,6 @@ module.exports = (function() {
   }
 
   return function isNaturalNumber(val, zero) {
-    return val >= (zero ? 0 : 1) &&
-           val < 9007199254740992 &&
-           Math.floor(val) === val;
+    return val >= (zero ? 0 : 1) && val !== Infinity && Math.floor(val) === val;
   };
 })();
