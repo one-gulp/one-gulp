@@ -7,8 +7,12 @@
 
 ## PROD
 
-* réparer la concaténation configurable en prod
 * réparer les liens des CSS
+
+## OTHER
+
+* peaufiner la génération automatique de port
+* avoir une interface WEB multi instance
 
 # OLD TODO
 
