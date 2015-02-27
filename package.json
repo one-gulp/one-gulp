@@ -5,11 +5,11 @@
   "main": "lib/one-gulp.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fabhub/one-gulp.git"
+    "url": "https://github.com/one-gulp/one-gulp.git"
   },
   "author": "Fabrice CLAEYS & Hubert SABLONNIÈRE",
   "license": "MIT",
-  "homepage": "https://github.com/fabhub/one-gulp",
+  "homepage": "https://github.com/one-gulp/one-gulp",
   "dependencies": {
     "babel": "4.4.3",
     "browser-sync": "2.2.1",
