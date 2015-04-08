@@ -1,6 +1,6 @@
 {
   "name": "one-gulp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a ready to use set of gulp tasks",
   "main": "lib/one-gulp.js",
   "repository": {
@@ -24,7 +24,7 @@
     "gulp-clone": "1.0.0",
     "gulp-coffee": "2.3.1",
     "gulp-concat": "2.5.1",
-    "gulp-concat-css": "2.1.0",
+    "gulp-concat-css": "2.2.0",
     "gulp-filter": "2.0.2",
     "gulp-htmlmin": "1.1.0",
     "gulp-imagemin": "2.2.0",
