@@ -27,6 +27,10 @@ one.init(gulp, {
             exclude: ['bower_components/**/*.js'],
             output: 'all-scripts.js'
         }
+    ],
+
+    watchPaths: [
+        'bower_components'
     ]
 
 });
