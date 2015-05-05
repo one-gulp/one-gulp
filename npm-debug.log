@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/hsablonniere/.nvm/versions/node/v0.12.2/bin/node',
+1 verbose cli   '/home/hsablonniere/.nvm/versions/node/v0.12.2/bin/npm',
+1 verbose cli   'shrinkwrap' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/gulp requires chalk@'^0.5.0' but will load
+4 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/chalk,
+4 warn unmet dependency which is version 1.0.0
+5 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/gulp/node_modules/gulp-util requires chalk@'^0.5.1' but will load
+5 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/chalk,
+5 warn unmet dependency which is version 1.0.0
+6 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/gulp-clone/node_modules/gulp-util requires chalk@'^0.5.0' but will load
+6 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/chalk,
+6 warn unmet dependency which is version 1.0.0
+7 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/gulp-coffee/node_modules/gulp-util requires chalk@'^0.5.1' but will load
+7 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/chalk,
+7 warn unmet dependency which is version 1.0.0
+8 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/gulp-filter/node_modules/gulp-util requires chalk@'^0.5.1' but will load
+8 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/chalk,
+8 warn unmet dependency which is version 1.0.0
+9 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/gulp-inject/node_modules/gulp-util requires chalk@'^0.5.1' but will load
+9 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/chalk,
+9 warn unmet dependency which is version 1.0.0
+10 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/gulp-jade/node_modules/gulp-util requires chalk@'^0.5.1' but will load
+10 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/chalk,
+10 warn unmet dependency which is version 1.0.0
+11 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/gulp-markdown/node_modules/gulp-util requires chalk@'^0.5.1' but will load
+11 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/chalk,
+11 warn unmet dependency which is version 1.0.0
+12 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/gulp-sass/node_modules/node-sass requires chalk@'^0.5.1' but will load
+12 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/chalk,
+12 warn unmet dependency which is version 1.0.0
+13 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/gulp-stylus/node_modules/gulp-util requires chalk@'^0.5.1' but will load
+13 warn unmet dependency /home/hsablonniere/dev/one-gulp/node_modules/chalk,
+13 warn unmet dependency which is version 1.0.0
+14 verbose stack Error: Problems were encountered
+14 verbose stack Please correct and try again.
+14 verbose stack invalid: chalk@1.0.0 /home/hsablonniere/dev/one-gulp/node_modules/chalk
+14 verbose stack extraneous: from@0.1.3 /home/hsablonniere/dev/one-gulp/node_modules/from
+14 verbose stack extraneous: ordered-merge-stream@0.0.0 /home/hsablonniere/dev/one-gulp/node_modules/ordered-merge-stream
+14 verbose stack     at shrinkwrap_ (/home/hsablonniere/.nvm/versions/node/v0.12.2/lib/node_modules/npm/lib/shrinkwrap.js:37:15)
+14 verbose stack     at /home/hsablonniere/.nvm/versions/node/v0.12.2/lib/node_modules/npm/lib/shrinkwrap.js:31:5
+14 verbose stack     at /home/hsablonniere/.nvm/versions/node/v0.12.2/lib/node_modules/npm/lib/ls.js:47:30
+14 verbose stack     at /home/hsablonniere/.nvm/versions/node/v0.12.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+14 verbose stack     at /home/hsablonniere/.nvm/versions/node/v0.12.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+14 verbose stack     at cb (/home/hsablonniere/.nvm/versions/node/v0.12.2/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+14 verbose stack     at /home/hsablonniere/.nvm/versions/node/v0.12.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+14 verbose stack     at cb (/home/hsablonniere/.nvm/versions/node/v0.12.2/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+14 verbose stack     at /home/hsablonniere/.nvm/versions/node/v0.12.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+14 verbose stack     at cb (/home/hsablonniere/.nvm/versions/node/v0.12.2/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+15 verbose cwd /home/hsablonniere/dev/one-gulp
+16 error Linux 3.16.0-34-generic
+17 error argv "/home/hsablonniere/.nvm/versions/node/v0.12.2/bin/node" "/home/hsablonniere/.nvm/versions/node/v0.12.2/bin/npm" "shrinkwrap"
+18 error node v0.12.2
+19 error npm  v2.7.4
+20 error Problems were encountered
+20 error Please correct and try again.
+20 error invalid: chalk@1.0.0 /home/hsablonniere/dev/one-gulp/node_modules/chalk
+20 error extraneous: from@0.1.3 /home/hsablonniere/dev/one-gulp/node_modules/from
+20 error extraneous: ordered-merge-stream@0.0.0 /home/hsablonniere/dev/one-gulp/node_modules/ordered-merge-stream
+21 error If you need help, you may report this error at:
+21 error     <https://github.com/npm/npm/issues>
+22 verbose exit [ 1, true ]

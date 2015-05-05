@@ -35,6 +35,8 @@ The path you pass will be passed through [path.resolve](http://nodejs.org/api/pa
 
 Indx supports javascript and coffeescript. If you have folders inside your folder, make sure each of those folders has an `index.js` or `index.coffee` file in it, or it won't be required. If you have files in your folder that are not `.js` or `.coffee`, they will not be required. If there are other languages I'm not aware of you'd like to add support for, feel free to submit a pull request - it's easy to extend the supported extensions.
 
-### Contributing
+### License & Contributing
+
+This project is licensed under [MIT](license.md)
 
 This entire project is one file, pretty easy to figure out how it's working. If you want to add something or fix a bug, please add a test for it. You can run tests with `mocha` in the root of the project.
