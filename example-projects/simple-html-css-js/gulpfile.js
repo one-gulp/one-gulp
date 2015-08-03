@@ -1,7 +1,7 @@
 'use strict';
 
-var gulp = require('gulp'),
-    one = require('one-gulp');
+var one = require('one-gulp'),
+    gulp = require('gulp');
 
 one.init(gulp, {
 
