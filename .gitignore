@@ -1,5 +1,8 @@
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 *.iml
 .idea/
-node_modules/gulp-sass
+node_modules/
 example-projects/*/.one-gulp
+example-projects/*/bower_components
+example-projects/*/node_modules
+one-gulp-streams-graph.svg
